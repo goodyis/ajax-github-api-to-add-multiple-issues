@@ -16,4 +16,13 @@ Used postman to configure my auth-key and test POST(ing) one single issue.
 Exported my tasks from Asana into csv.
 Used =concatenate to get the information I wanted from that file.
 Saved that information to a file; which I called later to init the loop.
-
+***
+THINGS TO NOTE BECAUSE YOU WILL NEED TO CHANGE THEM:
+```
+"url": "https://api.github.com/repos/:org/:repo/issues",
+```
+[Help On This Topic](https://developer.github.com/v3/issues/#create-an-issue)
+```
+"authorization": "Bearer YOURCUSTOMTOKEN HERE",
+```
+[Help On This Topic](https://github.com/settings/developers)

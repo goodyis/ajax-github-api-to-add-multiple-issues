@@ -1,5 +1,6 @@
 # ajax-github-api-to-add-multiple-issues
 Using GitHub API to POST multiple issues via loop and ajax
+[Create Issue via API](https://developer.github.com/v3/issues/#create-an-issue)
 
 ## I had some 180 tasks back-logged on Asana.
 I wanted them in github 'under' a repo.
